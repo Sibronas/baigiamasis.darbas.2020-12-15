@@ -1,6 +1,6 @@
 function countPasswordLength () {
-    let getUerEmailInput = document.getElementsByClassName("createAccPassword").value;
-    if (getUerEmailInput.length <= 0) {
+    let getUserEmailInput = document.getElementsByClassName("createAccPassword").value;
+    if (getUserEmailInput.length <= 0) {
         alert("Your password must be at least 8 characters !");
         } else {
             alert("Your`re in !!!");
